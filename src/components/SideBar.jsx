@@ -1,12 +1,15 @@
-import { IoHome, IoFolderOpen, IoBarChartSharp, IoDocument, IoChatbubbleEllipses, IoNotifications, IoSendSharp } from "react-icons/io5";
+import { IoHome, IoFolderOpen, IoBarChartSharp, IoDocument, IoChatbubbleEllipses, IoNotifications, IoSendSharp, IoSchool } from "react-icons/io5";
 
 
 export const SideBar = () => {
+
+
+  
   return (
     <nav className="bg-gray-950 text-white p-4 fixed top-0 left-0 h-screen w-62.5 flex flex-col">
       <div className="flex items-center gap-2 pb-8">
-        <img src="platzi.svg" alt="logo platzi" className="w-12" />
-        <p className="text-xl font-bold">Platzi</p>
+        <IoSchool className="size-12"/>
+        <p className="text-xl font-bold">Plaksi</p>
       </div>
 
       <section className="flex flex-col justify-between flex-1">
@@ -39,7 +42,7 @@ export const SideBar = () => {
 
         <div className="flex flex-col gap-5 p-4">
           <div className="flex flex-col gap-5 p-4 bg-linear-to-r from-gray-900 to-gray-800 rounded-lg">
-            <p>Hay empresas que le pagan Platzi a sus empleados 👀</p>
+            <p>Hay empresas que le pagan plaksi a sus empleados 👀</p>
             <a>Descubre más</a>
           </div>
           <div className="flex gap-2 items-center">
